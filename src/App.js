@@ -17,26 +17,6 @@ function App() {
             description={book.description}
           />
         ))}
-        {/* <Book
-          title={bookList[0].title}
-          image={book.image}
-          description={book.description}
-        />
-        <Book
-          title={bookList[1].title}
-          image={book.image}
-          description={book.description}
-        />
-        <Book
-          title={bookList[2].title}
-          image={book.image}
-          description={book.description}
-        />
-        <Book
-          title={bookList[3].title}
-          image={book.image}
-          description={book.description}
-        /> */}
         <Footer />
       </main>
     </div>
