@@ -1,34 +1,11 @@
 import React from "react";
-
+import { Header } from "./components/Header";
+import { Book } from "./components/Book";
+import { Footer } from "./components/Footer";
+import { bookList } from "./data/bookList";
 import "./App.css";
 
 function App() {
-  const bookList = [
-    {
-      title: "Hamlet",
-      image: "./assets/hamlet-cover.jpg",
-      description:
-        "Meanwhile back at Elsinore, Ophelia has gone mad with grief."
-    },
-    {
-      title: "Hamlet",
-      image: "./assets/hamlet-cover.jpg",
-      description:
-        "Meanwhile back at Elsinore, Ophelia has gone mad with grief."
-    },
-    {
-      title: "Hamlet",
-      image: "./assets/hamlet-cover.jpg",
-      description:
-        "Meanwhile back at Elsinore, Ophelia has gone mad with grief."
-    },
-    {
-      title: "Hamlet",
-      image: "./assets/hamlet-cover.jpg",
-      description:
-        "Meanwhile back at Elsinore, Ophelia has gone mad with grief."
-    }
-  ];
   return (
     <div className="App">
       <main>
@@ -46,17 +23,17 @@ function App() {
           description={book.description}
         />
         <Book
-          title={bookList[0].title}
+          title={bookList[1].title}
           image={book.image}
           description={book.description}
         />
         <Book
-          title={bookList[0].title}
+          title={bookList[2].title}
           image={book.image}
           description={book.description}
         />
         <Book
-          title={bookList[0].title}
+          title={bookList[3].title}
           image={book.image}
           description={book.description}
         /> */}

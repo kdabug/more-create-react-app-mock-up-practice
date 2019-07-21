@@ -1,0 +1,23 @@
+.c-book__container {
+  background-color: #ffc75e;
+  padding: 20px;
+  margin: 30px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.c-book__header h1 {
+  padding-bottom: 20px;
+}
+
+.c-book__details {
+  display: flex;
+  justify-content: space-around;
+}
+.c-book__details img {
+  height: 100px;
+  width: 100px;
+}
